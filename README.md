@@ -1,7 +1,7 @@
 # SQL-Analyzing-Industry-Carbon-Emissions
 Product emissions make up more than 75% of global emissions. But which industries are the worst offenders?
 
-![Factories creating emissions](pollution.jpg)
+![Factories creating emissions](Emissions-by-sector-%E2%80%93-pie-charts.png)
 
 Photo by Maxim Tolchinskiy on Unsplash
   
