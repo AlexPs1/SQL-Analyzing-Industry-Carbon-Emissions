@@ -4,7 +4,7 @@ FROM product_emissions
 ORDER BY year DESC
 LIMIT 1
 
--- Carbon emissions by industry
+-- Carbon emissions by industry last year was result 2017, we now use this data to group by each industry on that year and we the sum of PCF per industry.
 SELECT industry_group, COUNT(company) AS num_companies, ROUND(SUM(carbon_footprint_pcf),1)  AS total_industry_footprint
 FROM product_emissions
 WHERE year = 2017
